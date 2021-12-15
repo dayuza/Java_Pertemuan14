@@ -1,20 +1,9 @@
 package com.informatika19100064.databarang
 
 import android.annotation.SuppressLint
-import android.graphics.Color
 import android.os.Bundle
-import android.util.Log
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.informatika19100064.databarang.adapter.ListContent
-import com.informatika19100064.databarang.model.ResponseActionBarang
-import com.informatika19100064.databarang.model.ResponseBarang
-import com.informatika19100064.databarang.network.koneksi
 import kotlinx.android.synthetic.main.activity_insert_data.*
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 
 class InsertDataActivity : AppCompatActivity() {
     @SuppressLint("RestrictedApi")

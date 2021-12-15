@@ -1,20 +1,11 @@
 package com.informatika19100064.databarang
 
-import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.informatika19100064.databarang.adapter.ListContent
-import com.informatika19100064.databarang.model.ResponseBarang
-import com.informatika19100064.databarang.network.koneksi
 import kotlinx.android.synthetic.main.activity_main.*
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 
 class MainActivity : AppCompatActivity() {
 

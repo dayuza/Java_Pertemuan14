@@ -1,24 +1,9 @@
 package com.informatika19100064.databarang
 
 import android.annotation.SuppressLint
-import android.graphics.Color
 import android.os.Bundle
-import android.util.Log
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.informatika19100064.databarang.adapter.ListContent
-import com.informatika19100064.databarang.model.ResponseActionBarang
-import com.informatika19100064.databarang.model.ResponseBarang
-import com.informatika19100064.databarang.network.koneksi
 import kotlinx.android.synthetic.main.activity_update_data.*
-import kotlinx.android.synthetic.main.activity_update_data.et_jumlah_barang
-import kotlinx.android.synthetic.main.activity_update_data.et_nama_barang
-import kotlinx.android.synthetic.main.activity_update_data.rv_data_barang
-import kotlinx.android.synthetic.main.activity_update_data.toolbar
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 
 class UpdateDataActivity : AppCompatActivity() {
     @SuppressLint("RestrictedApi")

@@ -15,7 +15,6 @@ import com.informatika19100064.databarang.R
 import com.informatika19100064.databarang.UpdateDataActivity
 import com.informatika19100064.databarang.model.DataItem
 import com.informatika19100064.databarang.model.ResponseActionBarang
-import com.informatika19100064.databarang.network.koneksi
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
