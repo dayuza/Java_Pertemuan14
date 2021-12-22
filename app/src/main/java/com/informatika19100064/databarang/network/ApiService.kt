@@ -16,8 +16,8 @@ interface ApiService {
     @FormUrlEncoded
     @POST("create.php")
     fun insertBarang(
-        @Field("Nama_barang") namaBarang: String?,
-        @Field("Jumlah_barang") jmlBarang: String?
+        @Field("nama_barang") namaBarang: String?,
+        @Field("jumlah_barang") jmlBarang: String?
     ): Call<ResponseActionBarang>
 
     @FormUrlEncoded
@@ -33,4 +33,6 @@ interface ApiService {
     fun deleteBarang(
         @Field("id") id: String?
     ): Call<ResponseActionBarang>
+
+
 }

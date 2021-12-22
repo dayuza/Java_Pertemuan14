@@ -18,6 +18,12 @@
             android:name="com.informatika19100064.databarang.LoginActivity"
             android:label="@string/title_activity_login"></activity>
         <activity
+            android:name="com.informatika19100064.databarang.UpdateDataActivity"
+            android:label="@string/title_activity_login"></activity>
+        <activity
+            android:name="com.informatika19100064.databarang.InsertDataActivity"
+            android:label="@string/title_activity_login"></activity>
+        <activity
             android:name="com.informatika19100064.databarang.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">

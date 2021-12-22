@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class koneksi {
     companion object{
         var retrofit = Retrofit.Builder()
-            .baseUrl("http://192.168.104.196/dabar/api/")
+            .baseUrl("http://192.168.167.145/dabar/api/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
